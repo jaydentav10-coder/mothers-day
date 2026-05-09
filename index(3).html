@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Mother's Day, Mom!</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@400;600&display=swap');
+        .cursive { font-family: 'Dancing Script', cursive; }
+        body { font-family: 'Inter', sans-serif; background-color: #fffafb; }
+        .photo-card { break-inside: avoid; margin-bottom: 1.5rem; transition: all 0.3s ease; }
+        .photo-card:hover { transform: translateY(-10px); }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <header class="py-20 text-center bg-white border-b border-pink-100">
+        <h1 class="text-6xl font-bold mb-4 cursive text-pink-600">Happy Mother's Day!</h1>
+        <p class="text-xl text-gray-500 italic max-w-2xl mx-auto px-6">
+            "To the woman who always puts me first—I am forever grateful for everything you do."
+        </p>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        <div class="columns-1 md:columns-2 lg:columns-3 gap-6">
+
+            <div class="photo-card rounded-2xl overflow-hidden shadow-xl border-8 border-white bg-white">
+                <img src="mountains.jpg" class="w-full" alt="Mountains">
+                <div class="p-4 text-center italic text-pink-500">Adventure buddies.</div>
+            </div>
+
+            <div class="photo-card rounded-2xl overflow-hidden shadow-xl border-8 border-white bg-white">
+                <img src="beach.jpg" class="w-full" alt="Beach">
+                <div class="p-4 text-center italic text-pink-500">Sunny days.</div>
+            </div>
+
+            <div class="photo-card rounded-2xl overflow-hidden shadow-xl border-8 border-white bg-white">
+                <img src="hawaii.jpg" class="w-full" alt="Hawaii">
+                <div class="p-4 text-center italic text-pink-500">Aloha Vibes!</div>
+            </div>
+
+            <div class="photo-card rounded-2xl overflow-hidden shadow-xl border-8 border-white bg-white">
+                <img src="baby.jpg" class="w-full" alt="Baby Photo">
+                <div class="p-4 text-center italic text-pink-500">Always my hero.</div>
+            </div>
+
+            <div class="photo-card rounded-2xl overflow-hidden shadow-xl border-8 border-white bg-white">
+                <img src="fun.jpg" class="w-full" alt="Fun">
+                <div class="p-4 text-center italic text-pink-500">Endless laughs.</div>
+            </div>
+
+            <div class="photo-card rounded-2xl overflow-hidden shadow-xl border-8 border-white bg-white">
+                <img src="home.jpg" class="w-full" alt="Home">
+                <div class="p-4 text-center italic text-pink-500">Family first.</div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="py-12 text-center bg-white border-t border-pink-50">
+        <p class="cursive text-pink-500 text-4xl">Love you forever, Mom!</p>
+        <p class="text-xs text-gray-400 mt-4 tracking-widest uppercase">Designed for index(3) Project</p>
+    </footer>
+
+</body>
+</html>
